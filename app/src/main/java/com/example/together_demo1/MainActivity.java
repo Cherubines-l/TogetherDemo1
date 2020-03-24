@@ -28,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         initView();
         //设置标题栏
         setActionBar(mytoolbar);
-//        getActionBar().setTitle(""); // 不显示程序应用名
+        getActionBar().setTitle("智能交通"); // 不显示程序应用名
         mytoolbar.setNavigationIcon(R.drawable.ic_menu_black_24dp); // 在toolbar最左边添加icon
         mytoolbar.setNavigationOnClickListener(new View.OnClickListener() {
             @Override

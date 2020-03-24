@@ -24,7 +24,7 @@ public class MenuFragment extends Fragment {
     private ImageView iv_head;
     private TextView tv_username;
     private ListView menu_list;
-    private String[] titlelist={"ETC账户管理系统","停车管理系统","生活助手"};
+    private String[] titlelist={"ETC账户管理系统","停车管理系统","生活助手","公交查询系统"};
     private Activity activity;
     private ArrayAdapter<String> adapter;
 
