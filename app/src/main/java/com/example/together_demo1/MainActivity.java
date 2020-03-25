@@ -17,8 +17,8 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import com.example.together_demo1.Fragment.ETC.TabFragment1;
-import com.example.together_demo1.Fragment.RGBlight.TabFragment2;
-import com.example.together_demo1.Fragment.Check.TabFragment3;
+import com.example.together_demo1.Fragment.Check.TabFragment2;
+import com.example.together_demo1.Fragment.RGBlight.TabFragment3;
 import com.example.together_demo1.Fragment.Peccancy.TabFragment4;
 import com.example.together_demo1.Fragment.Bus.TabFragment5;
 

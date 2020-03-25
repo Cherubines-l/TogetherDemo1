@@ -3,13 +3,92 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="账单管理"
-        android:textSize="20dp"
-        android:textColor="#000"/>
+        android:layout_margin="10dp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="账单记录"
+            android:textStyle="bold"
+            android:textColor="#000"
+            android:textSize="25dp"
+            android:layout_weight="1" />
+
+        <Spinner
+            android:id="@+id/check_spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:entries="@array/check_num"
+            android:layout_weight="1.2" />
+
+        <Button
+            android:layout_marginLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="查询"
+            android:id="@+id/bt_check_select"
+            />
+
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/check_tablelayout">
+        <TableRow >
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="序号"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="车号"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                />
+
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="充值金额(元)"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="操作人"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                />
+            <TextView
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="充值时间"
+                android:textColor="#000"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                />
+        </TableRow>
+    </TableLayout>
+
 </LinearLayout>

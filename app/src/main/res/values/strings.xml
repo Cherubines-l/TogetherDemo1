@@ -17,4 +17,8 @@
         <item>绿灯升序</item>
         <item>绿灯降序</item>
     </array>
+    <array name="check_num">
+        <item>时间降序</item>
+        <item>时间升序</item>
+    </array>
 </resources>

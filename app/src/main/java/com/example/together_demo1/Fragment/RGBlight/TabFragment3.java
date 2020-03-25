@@ -1,4 +1,4 @@
-package com.example.together_demo1.Fragment.Check;
+package com.example.together_demo1.Fragment.RGBlight;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -21,5 +21,11 @@ public class TabFragment3 extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.teb_fragment3, container, false);
         return view;
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
     }
 }

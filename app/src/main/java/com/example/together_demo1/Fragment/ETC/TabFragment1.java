@@ -1,5 +1,7 @@
 package com.example.together_demo1.Fragment.ETC;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -96,6 +98,19 @@ public class TabFragment1 extends Fragment implements View.OnClickListener {
                 break;
             case R.id.btn_in:
                 //充值功能
+                if (et_nummber.getText().toString().equals("") || et_nummber.getText().toString() == null) {
+                    AlertDialog.Builder dialog = new AlertDialog.Builder(getContext());
+                    dialog.setTitle("充值金额不能为空").setIcon(R.drawable.ic_launcher_foreground).setNegativeButton("好的", new DialogInterface.OnClickListener() {
+                        @Override
+                        public void onClick(DialogInterface dialog, int which) {
+                                dialog.dismiss();
+                        }
+                    });
+
+                    dialog.create();
+                    dialog.show();
+                } else {
+
 
                 User user = new User();
                 user.setBanlance(banlance + Integer.valueOf(et_nummber.getText().toString()));
@@ -110,7 +125,7 @@ public class TabFragment1 extends Fragment implements View.OnClickListener {
                 myCheck.save();
                 et_nummber.setText("");
                 Toast.makeText(getContext(),"充值成功",Toast.LENGTH_SHORT).show();
-
+                }
                 break;
         }
     }
