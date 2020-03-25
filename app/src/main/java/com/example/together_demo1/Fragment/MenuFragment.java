@@ -30,6 +30,7 @@ public class MenuFragment extends Fragment {
     private ImageView iv_head;
     private TextView tv_username;
     private ListView menu_list;
+
     private String[] titlelist={"我的账户","账单管理","红绿灯模块","违章查看","公交线路查询"};
     private Activity activity;
     private ArrayAdapter<String> adapter;
