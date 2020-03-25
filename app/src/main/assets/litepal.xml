@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<litepal>
+    <dbname value="ETC" />
+    <version value="1" />
+    <list>
+        <mapping class="com.example.together_demo1.Bean.User"></mapping>
+        <mapping class="com.example.together_demo1.Bean.MyCheck"></mapping>
+    </list>
+</litepal>

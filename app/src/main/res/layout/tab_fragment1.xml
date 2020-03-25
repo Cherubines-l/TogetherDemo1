@@ -103,14 +103,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="60dp"
-            android:text="" />
+
+            android:text="@string/app_find" />
 
         <Button
             android:id="@+id/btn_in"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="40dp"
-            android:text="" />
+            android:text="@string/app_in" />
     </LinearLayout>
 
 </LinearLayout>

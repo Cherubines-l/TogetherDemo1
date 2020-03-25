@@ -3,7 +3,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/textView5"
@@ -11,5 +12,23 @@
         android:layout_height="wrap_content"
         android:text="公交线路查询"
         android:textSize="20dp"
-        android:textColor="#000"/>
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        />
+    <TextView
+        android:id="@+id/tv_road"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="6路公交车"
+        android:textSize="20dp"
+        android:textColor="#000"
+        android:layout_margin="10dp"
+        />
+
+    <ExpandableListView
+        android:id="@+id/busstoplist"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp" />
+
 </LinearLayout>
