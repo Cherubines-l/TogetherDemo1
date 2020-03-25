@@ -39,11 +39,14 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         getSupportActionBar().hide();
+
         initView();
         //设置标题栏
         setActionBar(mytoolbar);
+
         getActionBar().setTitle("我的账户"); // 不显示程序应用名
         mytoolbar.setTitleTextColor(Color.WHITE);
+
         mytoolbar.setNavigationIcon(R.drawable.ic_menu_black_24dp); // 在toolbar最左边添加icon
 
         mytoolbar.setNavigationOnClickListener(new View.OnClickListener() {
