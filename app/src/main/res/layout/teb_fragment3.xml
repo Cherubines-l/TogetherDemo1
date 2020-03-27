@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+    >
     <TextView
         android:text="红绿灯信息管理"
         android:textColor="#000000"
@@ -42,7 +42,7 @@
         <Button
             android:layout_marginLeft="10dp"
             android:layout_weight="1"
-            android:id="@+id/btn_find"
+            android:id="@+id/btn_find2"
             android:text="查询"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"/>
@@ -87,31 +87,6 @@
             android:id="@+id/table_row_one"
             android:layout_width="match_parent"
             android:layout_height="40dp">
-            <TextView
-                android:id="@+id/road_one"
-                android:layout_weight="1"
-                android:text="1"
-                style="@style/row_title"
-                />
-            <TextView
-                android:id="@+id/red_one"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="9"
-                />
-            <TextView
-                android:id="@+id/yellow_one"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="9"
-                />
-            <TextView
-                android:id="@+id/green_one"
-                style="@style/row_title"
-                android:layout_weight="1"
-
-                android:text="9"
-                />
 
         </TableRow>
         <TableRow
@@ -121,30 +96,7 @@
             android:id="@+id/table_row_two"
             android:layout_width="match_parent"
             android:layout_height="40dp">
-            <TextView
-                android:id="@+id/road_two"
-                android:layout_weight="1"
-                android:text="2"
-                style="@style/row_title"
-                />
-            <TextView
-                android:id="@+id/red_two"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="8"
-                />
-            <TextView
-                android:id="@+id/yellow_two"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="8"
-                />
-            <TextView
-                android:id="@+id/green_two"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="8"
-                />
+
 
         </TableRow>
         <TableRow
@@ -154,30 +106,6 @@
             android:id="@+id/table_row_three"
             android:layout_width="match_parent"
             android:layout_height="40dp">
-            <TextView
-                android:id="@+id/road_three"
-                android:layout_weight="1"
-                android:text="3"
-                style="@style/row_title"
-                />
-            <TextView
-                android:id="@+id/red_three"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="7"
-                />
-            <TextView
-                android:id="@+id/yellow_three"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="9"
-                />
-            <TextView
-                android:id="@+id/green_three"
-                style="@style/row_title"
-                android:layout_weight="1"
-                android:text="7"
-                />
 
         </TableRow>
 
